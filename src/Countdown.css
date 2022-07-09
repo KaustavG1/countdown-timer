@@ -1,0 +1,48 @@
+.countdown {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: #05abcd;
+}
+
+input {
+  margin: 5px 0px 15px 0px;
+  width: 300px;
+  padding: 12px 20px;
+  border: 1px solid #2e3545;
+  background-color: #1b2330;
+  border-radius: 5px;
+  color: rgb(207, 200, 200);
+  outline: none;
+}
+
+.play-circle {
+  display: flex;
+  background-color: #05abcd;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: #1b2330;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.innerContainer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.time {
+  font-size: 3em
+}
