@@ -15,8 +15,8 @@ function Countdown() {
 
   const handleChange = event => {
     setcontrolState(controls.ENDED)
-    setInput(Math.floor(Number(event.target.value) * 60))
     initialInput = Math.floor(Number(event.target.value) * 60)
+    setInput(initialInput)
   }
 
   const renderTime = () => {
